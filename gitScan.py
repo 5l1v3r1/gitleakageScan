@@ -33,4 +33,5 @@ if __name__ == '__main__':
 
     if ARGS.file is None:
         print '[*]Usage:python %s -f filename' % sys.argv[0]
+        exit(0)
     gitscan(ARGS.file)
